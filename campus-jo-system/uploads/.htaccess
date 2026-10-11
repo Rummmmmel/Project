@@ -1,0 +1,4 @@
+# Uploaded photos must never run as code
+<FilesMatch "\.(php|phtml|phar)$">
+    Require all denied
+</FilesMatch>
